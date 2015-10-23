@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="640983d8-5233-4877-b527-63b6db69449f"
+    Name="b9e743e2-0f53-4967-9d48-cb2403d74fd1"
     Publisher="CN=crua9"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="640983d8-5233-4877-b527-63b6db69449f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="b9e743e2-0f53-4967-9d48-cb2403d74fd1" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Wayne County Historical App</DisplayName>
+    <DisplayName>Wayne-County-Historical-Win-UA-App</DisplayName>
     <PublisherDisplayName>crua9</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="Wayne_County_Historical_App.App">
+      EntryPoint="Wayne_County_Historical_Win_UA_App.App">
       <uap:VisualElements
-        DisplayName="Wayne County Historical App"
+        DisplayName="Wayne-County-Historical-Win-UA-App"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="Wayne County Historical App"
+        Description="Wayne-County-Historical-Win-UA-App"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

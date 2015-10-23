@@ -37,7 +37,7 @@ namespace Wayne_County_Historical_App
         }
         //Select from the Hamburger list
 
-            // take out the /* */ to remove the comment out
+        // take out the /* */ to remove the comment out
         public void IconsListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (Home.IsSelected)

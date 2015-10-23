@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace Wayne_County_Historical_App
+namespace Wayne_County_Historical_Win_UA_App
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
@@ -46,7 +46,7 @@ namespace Wayne_County_Historical_App
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {
-                this.DebugSettings.EnableFrameRateCounter = false;
+                this.DebugSettings.EnableFrameRateCounter = true;
             }
 #endif
 
