@@ -9,8 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <!-- the code below needs to be changed. This app is going to be made for bee keepers.
-        One thing that needs to be added is charts on the home page. Maybe a input page on the side, and the home page can show all the charts in a scroll.
+        <!--
         
         Maybe this app can work with Cortana.
         -->

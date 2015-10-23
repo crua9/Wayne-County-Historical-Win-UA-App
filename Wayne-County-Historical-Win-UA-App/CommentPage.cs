@@ -36,9 +36,9 @@ namespace Wayne_County_Historical_Win_UA_App
         
         Problem:
 
-        How to get the user to keep and user this app?
+        How to get the user to keep and user this app?     A: Maybe make this an app for the city so more can be done with it?
         
-        Is there a easy way to link the app up to something to show off new events for the city?
+        Is there a easy way to link the app up to something to show off new events for the city? 
 
         */
     }
