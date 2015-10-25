@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Wayne_County_Historical_Win_UA_App.Random_Fact"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Wayne_County_Historical_Win_UA_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height= "*"/>
+            <RowDefinition Height= "*"/>
+        </Grid.RowDefinitions>
+        
+                <!-- Pic -->
+        <Grid>
+            <Image x:Name="image" HorizontalAlignment="Left" Height="100"  VerticalAlignment="Top" Width="100"/> <!-- need to find a way to get around the device problem with size-->
+        </Grid>
+            <!-- Random Text -->
+        <Grid Grid.Row="1">
+            <ScrollViewer HorizontalAlignment="Stretch" Height="auto"  VerticalAlignment="Top" Width="Auto"/>
+            <ScrollViewer>
+                 <TextBlock x:Name="RandomFact" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Random Fact" VerticalAlignment="Top"/>
+            </ScrollViewer>
+       </Grid>
+       
+
+
+    </Grid>
+</Page>

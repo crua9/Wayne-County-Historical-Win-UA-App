@@ -77,7 +77,21 @@
                             <TextBlock Text="Games" FontSize="25" Margin="20,0,0,0" />
                         </StackPanel>
                     </ListBoxItem>
-
+                    <!-- Random Fact -->
+                    <ListBoxItem Name="RandomFact">
+                        <StackPanel Orientation="Horizontal"> <!-- the icon needs to be changed -->
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE8C1;"/>
+                            <TextBlock Text="Random Facts" FontSize="25" Margin="20,0,0,0" />
+                        </StackPanel>
+                    </ListBoxItem>
+                    <!-- Feedback --> <!-- this one should be last -->
+                    <ListBoxItem Name="Feedback">
+                        <StackPanel Orientation="Horizontal">
+                            <!-- the icon needs to be changed -->
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE8C1;"/>
+                            <TextBlock Text="Feedback" FontSize="25" Margin="20,0,0,0" />
+                        </StackPanel>
+                    </ListBoxItem>
 
                 </ListBox>
             </SplitView.Pane>
