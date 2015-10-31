@@ -30,7 +30,8 @@ namespace Wayne_County_Historical_Win_UA_App
         Maybe something on travel
 
         On the home page, the user should get weather info if they are on the net. 
-
+        
+        Is it possible to do a virtual tour of some of the places
 
 
         
