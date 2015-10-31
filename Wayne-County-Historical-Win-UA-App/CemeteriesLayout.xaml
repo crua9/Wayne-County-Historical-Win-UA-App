@@ -18,12 +18,22 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-
-        <Grid Grid.Row="1"  >
+<!-- 
+        I'm trying to figure out how to make the map go on the entire left side of the screen.
+        
+        -->
+        <Grid Grid.Row="1">
             <!-- map -->
         </Grid>
+        
+        <Grid Grid.Row="0" Grid.Column="1">
+            <!-- Pic -->
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1">
+            <!-- info -->
+        </Grid>
 
-        
-        
+
+
     </Grid>
 </Page>
