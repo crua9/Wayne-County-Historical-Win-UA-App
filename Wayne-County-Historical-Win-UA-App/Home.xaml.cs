@@ -24,7 +24,7 @@ namespace Wayne_County_Historical_Win_UA_App
     {
         public Home()
         {
-            this.InitializeComponent();
+            this.InitializeComponent(Home);
         }
     }
 }

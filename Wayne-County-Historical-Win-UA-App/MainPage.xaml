@@ -84,6 +84,14 @@
                             <TextBlock Text="Random Facts" FontSize="25" Margin="20,0,0,0" />
                         </StackPanel>
                     </ListBoxItem>
+                    <!-- Cemetery -->
+                    <ListBoxItem Name="Cemetery">
+                        <StackPanel Orientation="Horizontal">
+                            <!-- the icon needs to be changed -->
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE8C1;"/>
+                            <TextBlock Text="Cemetery" FontSize="25" Margin="20,0,0,0" />
+                        </StackPanel>
+                    </ListBoxItem>
                     <!-- Feedback --> <!-- this one should be last -->
                     <ListBoxItem Name="Feedback">
                         <StackPanel Orientation="Horizontal">

@@ -69,7 +69,17 @@ namespace Wayne_County_Historical_App
                MyFrame.Navigate(typeof(Games));
                // TitleTextBlock.Text = "Games";
                BackButton.Visibility = Visibility.Visible;
-           } */
+           }
+           
+            */
+            /*    else if (Cemetery.IsSelected)
+         {
+             MyFrame.Navigate(typeof(Games));
+             // TitleTextBlock.Text = "Cemtery";
+             BackButton.Visibility = Visibility.Visible;
+         }
+
+          */
         }
 
         //Back Button
