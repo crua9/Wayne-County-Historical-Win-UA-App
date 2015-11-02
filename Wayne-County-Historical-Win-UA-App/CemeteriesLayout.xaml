@@ -7,7 +7,6 @@
     xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
     x:Class="Wayne_County_Historical_Win_UA_App.CemeteriesLayout"
     mc:Ignorable="d">
-    <!-- This page isn't meant to be used. It's only an example. -->
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -25,9 +24,7 @@
         -->
         <Grid  Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Background="Gainsboro" >
             <!-- map -->
-                
-            <Maps:MapControl Margin="0,0,200,0" VerticalAlignment="Top"    d:LayoutOverrides="Width"/>
-             
+
         </Grid>
 
         <Grid Grid.Row="0" Grid.Column="1">
@@ -38,12 +35,6 @@
             <TextBlock x:Name="Info" HorizontalAlignment="Left" Margin="242,151,0,0" TextWrapping="Wrap" Text="info" VerticalAlignment="Top"/>
             <!-- info -->
         </Grid>
-
-
-
-        
-
-
 
     </Grid>
 </Page>

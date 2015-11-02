@@ -8,7 +8,6 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
         <Grid.RowDefinitions>
             <RowDefinition Height= "*"/>
             <RowDefinition Height= "*"/>
@@ -21,8 +20,6 @@
         <TextBlock  Grid.Column="1" HorizontalAlignment="Left" Margin="299,167,0,0" TextWrapping="Wrap" Text="Weather" VerticalAlignment="Top"/>
         <TextBlock  HorizontalAlignment="Left" Margin="297,171,0,0" TextWrapping="Wrap" Text="Fact" VerticalAlignment="Top"/>
         <TextBlock  HorizontalAlignment="Left" Margin="297,162,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Grid" VerticalAlignment="Top" RenderTransformOrigin="-0.346,-0.151"/>
-
-
 
     </Grid>
 </Page>
