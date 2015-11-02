@@ -26,5 +26,19 @@ namespace Wayne_County_Historical_Win_UA_App
         {
             this.InitializeComponent();
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            Map.Center = new Windows.Devices.Geolocation.Geopoint(
+                new Windows.Devices.Geolocation.BasicGeoposition()
+                  {
+                    Latitude = 35.285502,
+                    Longitude = -77.864928
+
+                });
+            Map.ZoomLevel = 20;
+            base.OnNavigatedTo(e);
+        }
+
     }
 }
