@@ -22,8 +22,13 @@
         I'm trying to figure out how to make the map go on the entire left side of the screen.
         
         -->
-        <Grid  Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Background="Gainsboro" >
+        <Grid  Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"   Name="Map">
+            
+            <Image Width="Auto" Height="Auto" Source="Assets/Cemetery_Layout/burygrndsm.PNG" />
+            
             <!-- map -->
+            
+
 
         </Grid>
 
