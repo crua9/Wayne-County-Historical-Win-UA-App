@@ -102,6 +102,7 @@
     <Compile Include="CemeteriesLayout.xaml.cs">
       <DependentUpon>CemeteriesLayout.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CommentPage.cs" />
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
