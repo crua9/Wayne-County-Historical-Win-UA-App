@@ -15,32 +15,37 @@
             <RowDefinition Height= "*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width=".5*"/>
+            <ColumnDefinition Width=".5*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <!-- 
         I'm trying to figure out how to make the map go on the entire left side of the screen.
         
         -->
-        <Grid  Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" >
+        <Grid  Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"  Grid.ColumnSpan="2" Background="Gray" >
             <!-- If you're getting an  the name mapcontrol does not exist from below, just change the stuff to x86
             http://developerpublish.com/visual-studio-2015-the-name-mapcontrol-does-not-exist-in-the-namespace-usingwindows-ui-xaml-controls-maps/
             -->
             <Maps:MapControl x:Name="Map" />
-
-
-
             <!-- map -->
-            
-
-
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Column="1">
+                <AppBarButton Label="Military" Icon="Italic" Click="Military"/>
+                <AppBarButton Label="Emergency Service" Icon="BrowsePhotos" Click="Emergency"/>
+                <AppBarButton Label="Something" Icon="MapPin" Click="Something"/>
+                <AppBarButton Label="Clear" Icon="Delete" Click="Clear"/>
+                <AppBarSeparator/>
+                <AppBarButton Label="zoom out" Icon="ZoomOut" Click="ZoomOut"/>
+                <AppBarButton Label="zoom in" Icon="ZoomIn" Click="ZoomIn"/>
+                                      
+            </StackPanel>
         </Grid>
 
-        <Grid Grid.Row="0" Grid.Column="1">
-            <TextBlock x:Name="Pic" Margin="304,78,274,0" TextWrapping="Wrap" Text="pic" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <Grid Grid.Row="0" Grid.Column="2">
+            <TextBlock x:Name="Pic"  TextWrapping="Wrap" Text="pic" VerticalAlignment="Top" d:LayoutOverrides="Width" Margin="242,151,0,0"/>
             <!-- Pic -->
         </Grid>
-        <Grid Grid.Row="1" Grid.Column="1">
+        <Grid Grid.Row="1" Grid.Column="2">
             <TextBlock x:Name="Info" HorizontalAlignment="Left" Margin="242,151,0,0" TextWrapping="Wrap" Text="info" VerticalAlignment="Top"/>
             <!-- info -->
         </Grid>
