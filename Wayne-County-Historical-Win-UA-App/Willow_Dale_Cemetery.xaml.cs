@@ -60,7 +60,7 @@ namespace Wayne_County_Historical_Win_UA_App
                     Path = new Geopath(dataObject.Points.Select(p => p.Position))
                 };
                 shape.AddData(dataObject);
-                Map.MapElements.Add(shape);
+                WillowMap.MapElements.Add(shape);
             }
         }
 
