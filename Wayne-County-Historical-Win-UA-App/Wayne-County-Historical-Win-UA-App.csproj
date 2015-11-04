@@ -102,6 +102,9 @@
     <Compile Include="CemeteriesLayout.xaml.cs">
       <DependentUpon>CemeteriesLayout.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Cemetery.xaml.cs">
+      <DependentUpon>Cemetery.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CommentPage.cs" />
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
@@ -140,6 +143,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="CemeteriesLayout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cemetery.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
