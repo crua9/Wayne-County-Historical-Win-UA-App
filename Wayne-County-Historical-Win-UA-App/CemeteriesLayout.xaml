@@ -19,10 +19,7 @@
             <ColumnDefinition Width=".5*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <!-- 
-        I'm trying to figure out how to make the map go on the entire left side of the screen.
-        
-        -->
+      
         <Grid  Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"  Grid.ColumnSpan="2" Background="Gray" >
             <!-- If you're getting an  the name mapcontrol does not exist from below, just change the stuff to x86
             http://developerpublish.com/visual-studio-2015-the-name-mapcontrol-does-not-exist-in-the-namespace-usingwindows-ui-xaml-controls-maps/

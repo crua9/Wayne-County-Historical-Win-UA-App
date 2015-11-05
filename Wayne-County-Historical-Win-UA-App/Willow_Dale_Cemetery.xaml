@@ -19,7 +19,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <!-- 
-        I'm trying to figure out how to make the map go on the entire left side of the screen.
+        Need to add or take away buttons
         
         -->
         <Grid  Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"  Grid.ColumnSpan="2" Background="Gray" >

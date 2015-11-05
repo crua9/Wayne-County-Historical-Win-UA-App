@@ -25,6 +25,10 @@ namespace Wayne_County_Historical_Win_UA_App
     /// </summary>
     /// 
     // 35.376603, -77.995889 The location of the place (may need to push this a little south)
+
+        // Need the location and pics of the military and so on
+
+
     public sealed partial class Willow_Dale_Cemetery : Page
     {
         public Willow_Dale_Cemetery()
