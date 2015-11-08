@@ -26,5 +26,11 @@ namespace Wayne_County_Historical_Win_UA_App
         {
             this.InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Willow_Dale_Cemetery), null);
+            
+        }
     }
 }

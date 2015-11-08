@@ -73,7 +73,7 @@ namespace Wayne_County_Historical_Win_UA_App
 
         }
 
-        private void Something(object sender, RoutedEventArgs e)
+        private void Freemason(object sender, RoutedEventArgs e)
         {
 
         }

@@ -20,6 +20,8 @@ namespace Wayne_County_Historical_Win_UA_App
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
+    /// 
+    // Maybe a search can be done here so it shows up and people can search for people within the app
     public sealed partial class MainPage : Page
     {
         //Start
@@ -80,7 +82,7 @@ namespace Wayne_County_Historical_Win_UA_App
             */
                 else if (Cemetery.IsSelected)
          {
-             MyFrame.Navigate(typeof(CemeteriesLayout));
+             MyFrame.Navigate(typeof(Cemetery));
              // TitleTextBlock.Text = "Cemtery";
              BackButton.Visibility = Visibility.Visible;
          }
