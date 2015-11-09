@@ -41,6 +41,12 @@
                 Name="IconsListBox"
                  SelectionChanged="IconsListBox_SelectionChanged"
                 >
+                    <!-- 
+                    Many of the stuff listed below doesn't go to anything yet and can be commented out. 
+                    But I kept the buttons up just to get an idea on size of things.
+                    -->
+                    
+                    
                     <!-- Home -->
                     <ListBoxItem Name="Home">
                         <StackPanel Orientation="Horizontal">

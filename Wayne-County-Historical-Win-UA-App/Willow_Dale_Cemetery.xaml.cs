@@ -85,11 +85,17 @@ namespace Wayne_County_Historical_Win_UA_App
 
         private void ZoomOut(object sender, RoutedEventArgs e)
         {
+            var newZoom = WillowMap.ZoomLevel - 1;
+                   if (newZoom < 1) newZoom = 1;
+                   WillowMap.ZoomLevel = newZoom;
 
         }
 
         private void ZoomIn(object sender, RoutedEventArgs e)
         {
+            var newZoom = WillowMap.ZoomLevel + 1;
+                   if (newZoom > WillowMap.MaxZoomLevel) newZoom = WillowMap.MaxZoomLevel;
+                   WillowMap.ZoomLevel = newZoom;
 
         }
     }

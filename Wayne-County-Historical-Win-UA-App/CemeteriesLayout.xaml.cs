@@ -80,12 +80,16 @@ namespace Wayne_County_Historical_Win_UA_App
 
         private void ZoomOut(object sender, RoutedEventArgs e)
         {
-
+            var newZoom = Map.ZoomLevel - 1;
+            if (newZoom < 1) newZoom = 1;
+            Map.ZoomLevel = newZoom;
         }
 
         private void ZoomIn(object sender, RoutedEventArgs e)
         {
-
+            var newZoom = Map.ZoomLevel + 1;
+            if (newZoom > Map.MaxZoomLevel) newZoom = Map.MaxZoomLevel;
+            Map.ZoomLevel = newZoom;
         }
     }
 }
