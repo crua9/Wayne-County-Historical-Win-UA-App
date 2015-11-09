@@ -19,7 +19,8 @@
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="284,178,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Map" VerticalAlignment="Top"/>
         <TextBlock  Grid.Column="1" HorizontalAlignment="Left" Margin="299,167,0,0" TextWrapping="Wrap" Text="Weather" VerticalAlignment="Top"/>
         <TextBlock  HorizontalAlignment="Left" Margin="297,171,0,0" TextWrapping="Wrap" Text="Fact" VerticalAlignment="Top"/>
-        <TextBlock  HorizontalAlignment="Left" Margin="297,162,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Grid" VerticalAlignment="Top" RenderTransformOrigin="-0.346,-0.151"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="297,162,0,0" Grid.Row="1" TextWrapping="Wrap" Text="YouTube" VerticalAlignment="Top" RenderTransformOrigin="-0.346,-0.151"/>
+        <!-- for the YouTube grid, maybe a random YouTube vidoe from wayne can show. That or just link it to the wayne home page and go from there-->
 
     </Grid>
 </Page>
