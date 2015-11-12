@@ -34,6 +34,7 @@ namespace Wayne_County_Historical_Win_UA_App
         public Willow_Dale_Cemetery()
         {
             this.InitializeComponent();
+            WillowMap.Style = MapStyle.Aerial3DWithRoads;
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {

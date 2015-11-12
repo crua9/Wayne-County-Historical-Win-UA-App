@@ -25,15 +25,18 @@
             http://developerpublish.com/visual-studio-2015-the-name-mapcontrol-does-not-exist-in-the-namespace-usingwindows-ui-xaml-controls-maps/
             -->
             <Maps:MapControl x:Name="Map" />
+
+            <!-- The name needs to be a short 1 word thing. otherwise the size is off -->
+
             <!-- map -->
             <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Column="1">
-                <AppBarButton Label="Military" Icon="Italic" Click="Military"/>
-                <AppBarButton Label="Emergency Service" Icon="BrowsePhotos" Click="Emergency"/>
-                <AppBarButton Label="Something" Icon="MapPin" Click="Something"/>
-                <AppBarButton Label="Clear" Icon="Delete" Click="Clear"/>
+                <AppBarButton Label="Military" Icon="Italic" Click="Military" Background="LightGray"/>
+                <AppBarButton Label="Emergency" Icon="BrowsePhotos" Click="Emergency" Background="LightGray"/>
+                <AppBarButton Label="Something" Icon="MapPin" Click="Something" Background="LightGray"/>
+                <AppBarButton Label="Clear" Icon="Delete" Click="Clear" Background="LightGray"/>
                 <AppBarSeparator/>
-                <AppBarButton Label="zoom out" Icon="ZoomOut" Click="ZoomOut"/>
-                <AppBarButton Label="zoom in" Icon="ZoomIn" Click="ZoomIn"/>
+                <AppBarButton Label="zoom out" Icon="ZoomOut" Click="ZoomOut" Background="LightGray"/>
+                <AppBarButton Label="zoom in" Icon="ZoomIn" Click="ZoomIn" Background="LightGray"/>
                                       
             </StackPanel>
         </Grid>

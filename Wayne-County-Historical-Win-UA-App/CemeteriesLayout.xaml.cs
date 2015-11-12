@@ -28,6 +28,8 @@ namespace Wayne_County_Historical_Win_UA_App
         public CemeteriesLayout()
         {
             this.InitializeComponent();
+            //below is needed so we can get a picture of what we are really looking at
+            Map.Style = MapStyle.Aerial3DWithRoads;
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)

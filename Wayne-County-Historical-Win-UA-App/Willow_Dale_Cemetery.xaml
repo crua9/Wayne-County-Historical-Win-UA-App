@@ -29,19 +29,26 @@
             http://developerpublish.com/visual-studio-2015-the-name-mapcontrol-does-not-exist-in-the-namespace-usingwindows-ui-xaml-controls-maps/
             -->
             <Maps:MapControl x:Name="WillowMap" />
+
+            <!-- The name needs to be a short 1 word thing. otherwise the size is off -->
+            
+            <!-- Need to find a way keep the background when hover over the icon -->
+            
+            <!-- Maybe add a button to allow air view because the zoom is pretty bad  -->
+            
             <!-- map -->
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Column="1">
-                <AppBarButton Label="Military" Icon="Italic" Click="Military"/>
-                <AppBarButton Label="Emergency Service" Icon="BrowsePhotos" Click="Emergency"/>
-                <AppBarButton Label="Freemason" Icon="MapPin" Click="Freemason"/>
-                <AppBarButton Label="Clear" Icon="Delete" Click="Clear"/>
-                <AppBarSeparator/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Column="1" >
+                <AppBarButton Label="Military" Icon="Italic" Click="Military" Background="LightGray"/>
+                <AppBarButton Label="Emergency" Icon="BrowsePhotos" Click="Emergency" Background="LightGray"/>
+                <AppBarButton Label="Freemason" Icon="MapPin" Click="Freemason" Background="LightGray"/>
+                <AppBarButton Label="Clear" Icon="Delete" Click="Clear" Background="LightGray"/>
+                
                <!-- I moved the zoom function to the bottom -->
                                       
             </StackPanel>
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Grid.Column="2">
-                 <AppBarButton Label="zoom out" Icon="ZoomOut" Click="ZoomOut"/>
-                <AppBarButton Label="zoom in" Icon="ZoomIn" Click="ZoomIn"/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Grid.Column="2" >
+                <AppBarButton Label="zoom out" Icon="ZoomOut" Click="ZoomOut" Background="LightGray"/>
+                <AppBarButton Label="zoom in" Icon="ZoomIn" Click="ZoomIn" Background="LightGray"/>
                 
             </StackPanel>
         </Grid>
