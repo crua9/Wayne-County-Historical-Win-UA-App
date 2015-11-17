@@ -34,7 +34,7 @@ namespace Wayne_County_Historical_Win_UA_App
         
         Is it possible to do a virtual tour of some of the places
 
-
+        Need to add a splashscreen the at says some functions require net
         
         Problem:
 
