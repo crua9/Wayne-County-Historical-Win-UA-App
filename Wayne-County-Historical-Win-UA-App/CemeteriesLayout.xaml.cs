@@ -74,7 +74,7 @@ namespace Wayne_County_Historical_Win_UA_App
         {
 
         }
-
+        //make a clear object to clear any markers. Maybe need to add a reset button
         private void Clear(object sender, RoutedEventArgs e)
         {
 

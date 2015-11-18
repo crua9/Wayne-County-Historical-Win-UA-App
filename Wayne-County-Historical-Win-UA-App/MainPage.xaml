@@ -71,14 +71,14 @@
                     <!-- Story -->
                     <ListBoxItem Name="Stories">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE8C1;"/>
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xEc24;"/>
                             <TextBlock Text="Stories" FontSize="25" Margin="20,0,0,0" />
                         </StackPanel>
                     </ListBoxItem>
                     <!-- Games -->
                     <ListBoxItem Name="Games">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE899;"/>
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xEc4e;"/>
                             <TextBlock Text="Games" FontSize="25" Margin="20,0,0,0" />
                         </StackPanel>
                     </ListBoxItem>
